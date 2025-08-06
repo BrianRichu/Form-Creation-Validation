@@ -1,7 +1,8 @@
-const form = document.getElementById('registration-form');
 
-form.addEventListener('submit',(event)=>{
+
+document.addEventListener('submit',(event)=>{
 event.preventDefault();
+const form = document.getElementById('registration-form');
  
 const username = document.getElementById('username').value.trim();
 const email = document.getElementById('email').value.trim();
