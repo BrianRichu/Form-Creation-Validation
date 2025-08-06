@@ -20,8 +20,7 @@ try {
 
 }catch(error){
   dataContainer.innerHTML = '';
-  const errorMessage = "Failed to Load user data";
-  dataContainer.innerHTML = errorMessage;
+  dataContainer.innerHTML = "Failed to load user data.";
 }
 }
 
